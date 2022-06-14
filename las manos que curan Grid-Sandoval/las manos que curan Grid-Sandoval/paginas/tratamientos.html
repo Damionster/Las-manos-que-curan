@@ -5,107 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./tratamientostyle.css">
-    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div  class="cajamenu c1 c1grid">
-           <div class="logonombre">  
-           <img src="../assets/images/logo2.jpg" alt="logo compañia" class="logo">
-                  
-           </div>
-              <div class="bar">
-                
-                    <a href="../index.html" class="nav-enlace">Inicio</a>
-                    <a href="./paginas/tratamientos.html" class="nav-enlace">Tratamientos</a>
-                    <a href="./paginas/elementos.html" class="nav-enlace">Elementos</a>
-                    <a href="./paginas/turnos.html" class="nav-enlace">Turnos</a>
-                    <a href="./paginas/conoceme.html" class="nav-enlace">Conoceme</a>
-                
-              </div>
-        </div>
-     </header>
-     <main>
-            <div class="grid-layout">
-            <div class="caja c2">
-             <section class="c2section">
-                <article class="c2articulo1">
-                    <h1 class="titulo">Masoterapia</h1>
-                 <p class="descripcion"><i>El objetivo de aplicar masoterapia principalmente 
+        <div class="container-fluid">
+            <div class="row">
+               <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                  <div class="container-fluid">
+                     
+                    <a class="navbar-brand" href="#">
+                       <img src="../assets/images/logo2.jpg" alt="logo compañia" class="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Elementos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Turnos</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Conoceme</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./tratamientos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Tratamientos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="./tratamientos.html">Descontracturantes</a></li>
+                              <li><a class="dropdown-item" href="./tratamientos.html">Rehabilitación</a></li>
+                              <li><a class="dropdown-item" href="./tratamientos.html">Reflexología</a></li>
+                            </ul>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+            <div class="row2">
+                <div class="col-sm-10 col-md-10 col-xl-8 masoterapiabox">
+                   
+                <h1>Masoterapia</h1>
+                <p class="descripcion"><i>El objetivo de aplicar masoterapia principalmente 
                     <br>es reducir los síntomas que afecten al paciente 
                     <br>como dolor o inflamación con manipulaciones de la masa muscular, articular y 
                     <br> óseo para lograr el objetivo del tratamiento integral “recuperar la movilidad”.</i></p>
-
-                </article>
-             
-            </section>
+                </div>
+            </div>
+     </header>
+     <section>
+         <div class="container-fluid">
+             <div class="row ">
+         <div class="col-sm-10 col-md-6 col-xl-4">
+        <div class="card text-bg-dark border-warning mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://picsum.photos/200/300" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Masajes Relajantes:</h5>
+                  <p class="card-text">Se aplican para tratar tensiones, Contracturas y malos esfuerzos; de forma manual utilizando aceites y cremas Descontracturantes y tambien fragancias.</p>
+                  <p class="card-text"><small class="text-muted">Se recomiendan sesiones 
+                    1 vez a la semana</small></p>
+                </div>
+              </div>
             </div>
           </div>
-    
-     <div class="caja c3">
-         <section class="c3section">
-            <article class="c3articulo">
+         </div>
+             
+         
+         <div class="col-sm-10 col-md-6 col-xl-4">
+            <div class="card text-bg-dark border-warning mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://picsum.photos/200/300" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Masajes Regenerativos:</h5>
+                      <p class="card-text">Se atienden lesiones y contracturas cronicas, aplicandose de forma manual y una serie de aparatología como Ultrasonido, Magnetoterapia y Lámpara.</p>
+                      <p class="card-text"><small class="text-muted">Se recomiendan sesiones  de 2 a 3 semanales</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             </div>
+             <div class="col-sm-10 col-md-6 col-xl-4">
+                <div class="card text-bg-dark border-warning mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="https://picsum.photos/200/300" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Reflexología:</h5>
+                          <p class="card-text">Se aplican en apoyo o complemento a tratamientos médicos localizados y/o en quien no pueda recibir tratamiento en su espalda; es un masaje manual en los pies.</p>
+                          <p class="card-text"><small class="text-muted">Se recomiendan sesiones 
+                            1 vez a la semana</small></p>
+                        </div>
+                      </div>
+                    </div>
+             </div>
+         </div>  
                 
-                <div class="cards cd1">
-                    <p><h3>Masajes Relajantes:</h3><br>
-                    Se aplican para tratar
-                       <br>tensiones, Contracturas
-                       <br>y malos esfuerzos;
-                       <br>de forma manual utilizando
-                       <br>aceites y cremas Descontracturantes
-                       <br>y tambien fragancias.
-                    
-                    <br><p style="font-weight:bold">Se recomiendan sesiones 
-                        1 vez a la semana
-                    </p>                       
-                </div>
                 
-                <div class="cards cd2">
-                    <h3>Masajes Regenerativos:</h3>
-                               <p>Se atienen lesiones
-                                  <br>y contracturas cronicas
-                                  <br>aplicandose de forma manual
-                                  <br>y una serie de 
-                                  <br>aparatología como:
-                                  <br>Ultrasonido
-                                  <br>Magnetoterapia
-                                  <br>Lámpara 
-                               </p>
-                               <br><p style="font-weight:bold">Se recomiendan sesiones 
-                                   <br>de 2 a 3 semanales
-                               </p>
-                </div>
-                <div class="cards cd3">
-                    <h3>Reflexiología:</h3>
-                    <p>Se aplican en apoyo 
-                             <br>o complemento a tratamientos
-                             <br>médicos localizados y/o
-                             <br>en quien no pueda recibir
-                             <br>tratamiento en su espalda
-                             <br>es un masaje manual 
-                             <br>en los pies                
-                          </p>
-                          <br><p style="font-weight:bold">Se recomiendan sesiones 
-                              <br>1 vez a la semana
-                          </p>                       
-                </div>
-            </article>
+          
          </section>
-     </div>
+     
      </main>  
    <footer class="caja c4">
-    <nav>
-        <div class="pie">
-        <ul>
-            <li><a href="#" class="foot">mis redes sociales</a></li>
-            <li> <a href="#"class="foot">consultas</a></li>
-        </ul>
+    <div class="container-fluid">
+        <div class="row bg-dark align-items-center">
+          <ul>
+              <li><a href="#" class="foot">mis redes sociales</a></li>
+              <li> <a href="#"class="foot">consultas</a></li>
+          </ul>
         </div>
-        
-    </nav>
+     </div>
    </footer>
      </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
     
 </html>
