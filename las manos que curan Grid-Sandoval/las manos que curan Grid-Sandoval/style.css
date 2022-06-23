@@ -88,3 +88,124 @@ p.descripcion{
     font-size: 20px;
     margin-top: 20px;
 }
+.elementos{
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size: 45px;
+    color: aliceblue;
+}
+#materiales{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+    
+}
+.productos{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.list-group{
+    background-color: black;
+    border: solid 2px rgb(237, 255, 136);
+    border-radius: 10px;
+    width: 300px;
+    height: max-content;
+}
+#imgproductos{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#imgaparatologia{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    margin-top: 30px;
+    margin-left: 5px;
+
+}
+.lista1{
+    margin-left: 75px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration:underline;   
+    color: aliceblue;
+}
+#aparatos{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.aparatologia{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.lista2{
+    margin-left: 75px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration:underline;   
+    color: aliceblue;
+}
+.zoom{
+    transform: all 1s;
+}
+.zoom:hover{
+    font-size: 30px;
+}
+.row3{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.conocemebox{
+    
+    margin-top: 150px;
+    margin-bottom: 250px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: black;
+    border: solid 4px rgb(237, 255, 136);
+    border-radius: 20px;
+}
+.unpocosobremi{
+    text-align: center;
+    font-size: 60px;
+}
+.conoceme{
+    text-align: center;
+    font-size: 30px;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    
+}
+.header {
+   
+    
+    margin-top: 150px;
+    color: #2b87ff;
+    font-size: 35px;
+    text-decoration-style: solid;
+    padding: 10px;
+}
+
+.enviar{
+    margin-bottom: 165px;
+}
